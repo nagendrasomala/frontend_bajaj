@@ -25,7 +25,7 @@ function Page1() {
       }
 
       const response = await axios.post(
-        'https://backend-bajaj-14w6.onrender.com/bhfl',
+        'https://backend-bajaj-14w6.onrender.com/bfhl',
         parsedJson
       );
       setResponseData(response.data);
